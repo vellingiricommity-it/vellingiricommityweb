@@ -5,3 +5,4 @@ export const getMessage = async (): Promise<MessageResponse> => {
   const res = await api.get("/message")
   return res.data
 }
+
